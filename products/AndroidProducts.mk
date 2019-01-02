@@ -17,12 +17,14 @@
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bacon/pa_bacon.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
+    $(LOCAL_DIR)/sakura/pa_sakura.mk \
+    $(LOCAL_DIR)/santoni/pa_santoni.mk \
     $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
     $(LOCAL_DIR)/robin/pa_robin.mk \
-    $(LOCAL_DIR)/zl1/pa_zl1.mk \
-    $(LOCAL_DIR)/santoni/pa_santoni.mk
+    $(LOCAL_DIR)/zl1/pa_zl1.mk
+
 # Samsung Exynos family
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
